@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style>
+    .navbar-brand img {
+      max-height: 50px;
+    }
+    .profile-img {
+      max-width: 100%;
+    }
+    /* Adjustments for mobile */
+    @media (max-width: 768px) {
+      .profile-img {
+        margin-top: 20px;
+      }
+      .section-heading {
+        font-size: 24px;
+      }
+      .navbar-brand img {
+        max-height: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="pngtree-letter-n-logo-png-png-image_3045042-removebg-preview.png" alt="Logo">
+    </a>
+    <!-- Navbar toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+  <!-- Name and Social Media Icons -->
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1>Asslamualaikum!</h1>  
+      <h2 class="font-weight-bold">Mohammed Muzahidul Islam</h2>
+      <h6>Student | Writer</h6>
+      <p>I'm an enthusiastic learner and an amateur programmer. Every day evolving myself in the world of programming to reach the highest level.</p>
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a target="_blank" href="https://muzahid-nafiz.medium.com/"><i class="fab fa-medium"></i></a>
+        <a target="_blank" href="https://github.com/MuzahidNafiz13"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.facebook.com/mdmuzahidul.islam.10441/"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/muzahid.nafiz/"><i class="fab fa-instagram"></i></a>
+        <a href="38. দেয়াল - হুমায়ূন আহমেদ.pdf" download="YourResume.pdf" class="btn btn-primary">Resume</a>
+      </div>
+    </div>
+    <div class="col-md-6 text-center mt-4">
+      <!-- Profile Picture -->
+      <img src="f9035b5a-14aa-44b1-962c-efb2c618f2be.jpeg" alt="Profile Picture" class="profile-img" >
+    </div>
+  </div>
+</div>
+</header>
+<main>
+<!-- Portfolio Section -->
+<section id="portfolio" class="bg-light py-5">
+    <div><h2 class="text-center mt-4 font-weight-bold section-heading">Portfolio</h2></div>
+    <div class="container">
+      <div class="row">
+        <!-- Portfolio Box 1 -->
+        <div class="col-md-12 mb-4 mt-4">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Image -->
+              <img src="banking-management-software-500x500.webp" alt="Portfolio Image 1" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+              <!-- Text -->
+              <h3>Banking Management System</h3>
+              <p class="text-bottom">I've developed a comprehensive banking management system in Python, seamlessly integrating user authentication, account management, transaction tracking, and reporting functionalities. With robust security features and an intuitive interface, it offers efficient management of financial operations, enhancing convenience and reliability for both clients and administrators.</p>
+              <!-- Tags -->
+              <div class="tags">
+                <span class="badge badge-primary">Python</span>
+                <span class="badge badge-primary">Django</span>
+                <span class="badge badge-primary">VSCode</span>
+                <span class="badge badge-primary">HTML</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Portfolio Box 2 -->
+        <div class="col-md-12 mb-4">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Image -->
+              <img src="6242e7ec745620c79f0facea_Benefits Ticketing Management System.png" alt="Portfolio Image 2" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+              <!-- Text -->
+              <h3>Cinema Ticket Management System</h3>
+              <p>I've developed a streamlined Cinema Ticket distribution system in Python, facilitating seamless booking experiences. Users can browse movies, select showtimes, and purchase tickets effortlessly. Utilizing Python's efficiency, it ensures swift transactions and real-time updates, enhancing the overall cinema experience for both patrons and administrators.</p>
+              <!-- Tags -->
+              <div class="tags">
+                <span class="badge badge-primary">Python</span>
+                <span class="badge badge-primary">Django</span>
+                <span class="badge badge-primary">HTML</span>
+                <span class="badge badge-primary">VSCode</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+      <!-- Section Heading -->
+      <h2 class="text-center mb-4 font-weight-bold section-heading">Skills</h2>
+  
+      <!-- Skill Lists -->
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h3>Expertise:</h3>
+          <ul class="list-unstyled d-flex flex-wrap">
+            <li class="mr-2 mb-2"><span class="badge badge-primary">Python</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">C</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">Java</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">C++</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-4">
+          <h3>Comfortable:</h3>
+          <ul class="list-unstyled d-flex flex-wrap">
+            <li class="mr-2 mb-2"><span class="badge badge-primary">Python</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">C++</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">Java</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-4">
+          <h3>Familiar:</h3>
+          <ul class="list-unstyled d-flex flex-wrap">
+            <li class="mr-2 mb-2"><span class="badge badge-primary">HTML</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">CSS</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">MySQL</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-4">
+          <h3>Tools:</h3>
+          <ul class="list-unstyled d-flex flex-wrap">
+            <li class="mr-2 mb-2"><span class="badge badge-primary">Git</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">VSCode</span></li>
+            <li class="mr-2 mb-2"><span class="badge badge-primary">Photoshop</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+      <!-- Section Heading -->
+      <h2 class="text-center mb-4 font-weight-bold section-heading">About</h2>
+      <!-- My Education Subsection -->
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <h3 class="mb-3 text-center">My Education</h3>
+          <p class="text-center">
+            B.Sc in Computer Science<br>
+            University of the People, USA<br>
+            (2023-Now)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Me Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+      <!-- Section Heading -->
+      <h2 class="text-center mb-4 font-weight-bold section-heading">Contact Me</h2>
+      <!-- Contact Form -->
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <form>
+            <!-- Name Input -->
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <!-- Email Input -->
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <!-- Message Input -->
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <!-- Send Button -->
+            <button type="submit" class="btn btn-primary btn-block">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+
+<footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 YourWebsiteName. All rights reserved.</p>
+      <p>Designed with <i class="fas fa-heart text-danger"></i> by Mohammed Muzahidul Islam</p>
+    </div>
+  </footer>  
+</footer>
+
+<!-- Bootstrap JS, jQuery, and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
